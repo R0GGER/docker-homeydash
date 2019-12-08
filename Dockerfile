@@ -1,5 +1,5 @@
 FROM node:latest
-MAINTAINER: r0gger
+MAINTAINER R0GGER
 
 RUN apt-get update && apt-get install -y git
 RUN git clone https://github.com/athombv/homey.ink.git
