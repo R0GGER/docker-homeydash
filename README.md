@@ -6,7 +6,7 @@ Credits to homeydash.com and Homey.ink!
 More info and screenshots: https://github.com/daneedk/homeydash.com   
    
 ```
-docker run -d --name homeydash -p 5000:5000 r0gger/docker-homeydash   
+docker run -d --name homeydash --restart always -p 5000:5000 r0gger/docker-homeydash   
 ```
 
 Link and theme:   
