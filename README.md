@@ -22,7 +22,7 @@ git clone https://github.com/R0GGER/docker-homeydash.git
 ```
 
 Choose your repo you want to build:   
-REPO=athombv, daneedk or Homeycornelisse
+REPO=athombv, daneedk
 ```
 docker build --build-arg REPO=athombv -t homeydash .
 ```
