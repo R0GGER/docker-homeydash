@@ -15,3 +15,24 @@ Link and theme:
 `http://ip-address:5000/?theme=ipad&lang=en&token=<TOKEN>`    
     
 > Your token can be acquired by visiting https://homey.ink and looking in the console after logging in.
+
+## Build a custom repository yourself.
+```
+git clone https://github.com/R0GGER/docker-homeydash.git
+```
+
+Choose your repo you want to build:   
+REPO=athombv, daneedk or Homeycornelisse
+```
+docker build --build-arg REPO=athombv -t homeydash .
+```
+
+Run and test (remove after exit)
+```
+docker run --rm --name homeydash -p 5000:5000 homeydash
+```
+
+Run (and keep it running)
+```
+docker run -d --name homeydash --restart always -p 5000:5000 homeydash
+```
