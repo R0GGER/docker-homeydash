@@ -4,7 +4,10 @@ Docker Homeydash is an open-source project for wall-mounted Homey dashboards...
 Credits to homeydash.com and Homey.ink!    
    
 More info and screenshots: https://github.com/daneedk/homeydash.com   
-   
+    
+**Daneedk:** https://homeydash.app   
+**Athombv:** https://athom.homeydash.app    
+
 ```
 docker run -d --name homeydash --restart always -p 5000:5000 r0gger/docker-homeydash   
 ```
