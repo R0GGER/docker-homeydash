@@ -16,6 +16,7 @@ Link and theme:
 > Your token can be acquired by visiting https://homey.ink and looking in the console after logging in.
 
 ### Repository builds:   
+Running on a RamNode VPS using [NGINX Proxy Manager](https://github.com/jc21/nginx-proxy-manager) and a HomeyDash build ofcourse.   
 **Daneedk:** https://homeydash.app   
 **Athombv:** https://athom.homeydash.app    
     
